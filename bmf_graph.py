@@ -1,5 +1,10 @@
 #!/usr/bin/python
 
+"""
+The script use BMF controller's API to create policy structure diagrams. The script uses filter-interface names and/or
+filter-interface-groups names as argument and creats images with BMF policy structure. 
+"""
+
 import json
 import requests
 import sys
